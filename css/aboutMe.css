@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background: gainsboro ;
+    font-family: 微软雅黑 ;
+}
+.header {
+    font-size: 15px;
+    width: 100%;
+    height: 60px;
+    background: #1C2327;
+    line-height: 60px;
+}
+.headerBox a{
+    color: #f6f6f6;
+}
+.headerBox{
+    width: 1200px;
+    height: 100%;
+    margin: auto ;
+}
+.headerBox h1 {
+    height: 100%;
+    float: left;
+    margin-right: 56px;
+    font-weight: 400;
+    font-family: 宋体 ;
+}
+.headerBox li{
+    float: left;
+    margin-right: 36px;
+}
+.headerBox .search {
+    width: 4.2%;
+    height: 100%;
+    float: right
+}
+.headerBox .nav  {
+    height: 100%;
+    float: left;
+}
+.nav li a:hover{
+    color: #00c1de;
+}
+footer{
+    background: #373D41;
+    font-size: 14px;
+    width: 100%;
+    height: 191px;
+    box-sizing: border-box;
+    padding: 30px 0;
+    border-top:#00C1DE 10px solid;
+}
+footer ul{
+    overflow: hidden;
+    width: 1200px;
+    margin: 0 auto;
+}
+.weixin{
+    margin-right: 20px;
+    float: left;
+    text-align: center;
+}
+.weixin > img{
+    width: 100px;
+    height: 100px;
+}
+footer > .weixin > div{
+    background: #FFFFFF;
+    display: block;
+    font-size: 15px;
+    width: 100px;
+    text-align: center;
+}
+.stateTitle{
+    font-size: 16px;
+    color: #00c1de;
+    margin-bottom: 5px;
+}
+.stateContent{
+    color: #73777a;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.me{
+    width: 1200px;
+    min-height: 300px;
+    background: white;
+    margin: 20px auto;
+    border-radius: 5px;
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+.intro{
+    width: 100%;
+    height: 106px;
+    margin: 20px 0;
+    display: flex;
+}
+.avatar{
+    width: 106px;
+    height: 106px;
+}
+.name{
+    margin: 10px 0;
+    font-size: 18px;
+}
+.con{
+    font-size: 15px;
+    margin-top: 5px;
+    color: #666;
+    line-height: 1.7;
+}
+.content{
+    margin-left: 10px;
+}
+.monoTitle {
+    margin: 20px 0;
+    font-size: 18px;
+    width: 120px;
+    background-size: 40px;
+    border-bottom:1px dashed  #000 ;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+.mono > p{
+    display: block;
+    margin-bottom: 15px;
+    font-size: 15px;
+    line-height: 1.5;
+}

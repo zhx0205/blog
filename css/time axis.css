@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background: gainsboro ;
+    font-family: 微软雅黑 ;
+}
+.header {
+    font-size: 15px;
+    width: 100%;
+    height: 60px;
+    background: #1C2327;
+    line-height: 60px;
+}
+.headerBox a{
+    color: #f6f6f6;
+}
+.headerBox{
+    width: 1200px;
+    height: 100%;
+    margin: auto ;
+}
+.headerBox h1 {
+    height: 100%;
+    float: left;
+    margin-right: 56px;
+    font-weight: 400;
+    font-family: 宋体 ;
+}
+.headerBox li{
+    float: left;
+    margin-right: 36px;
+}
+.headerBox .search {
+    width: 4.2%;
+    height: 100%;
+    float: right
+}
+.headerBox .nav  {
+    height: 100%;
+    float: left;
+}
+.nav li a:hover{
+    color: #00c1de;
+}
+.list{
+    padding: 30px;
+    box-sizing: border-box;
+    width: 1200px;
+    min-height:300px ;
+    background: #FFFFFF;
+    margin: 20px auto 10px;
+}
+.list > ul{
+    margin-top:10px;
+}
+.title{
+    border-bottom: 1px solid #e4e3e3;
+    background: white;
+    padding : 10px 10px 10px 0;
+    position: relative;
+}
+.title::before{
+    content: '';
+    height: 2px;
+    width: 60px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: black;
+    transition-duration: 1s ;
+}
+.title:hover::before{
+    width: 80px;
+}
+.list > li{
+    line-height: 1.5;
+}
+.list span {
+    position: relative;
+    line-height: 32px;
+    padding-right: 40px;
+    color: #999;
+    font-size: 15px;
+}
+.list span:after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 40px;
+    background: #e0dfdf;
+    right: 18px;
+}
+.list i{
+    position: relative;
+    font: 15px "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+.list i:before {
+    content: " ";
+    height: 10px;
+    width: 10px;
+    border: 2px solid #cccaca;
+    background: #fff;
+    position: absolute;
+    top: 4px;
+    left: -30.5px;
+    border-radius: 50%;
+}
+li i:hover::before{
+    background: black;
+}
+.page{
+    width: 100%;
+    height: 42px;
+    margin: 20px 0 40px;
+    text-align: center;
+}
+.page > a{
+    margin: 10px 10px;
+    display: inline-block;
+    font-size: 15px;
+    padding: 5px 10px;
+    background: #F7F7F7;
+}
+footer{
+    background: #373D41;
+    font-size: 14px;
+    width: 100%;
+    height: 191px;
+    box-sizing: border-box;
+    padding: 30px 0;
+    border-top:#00C1DE 10px solid;
+}
+footer ul{
+    overflow: hidden;
+    width: 1200px;
+    margin: 0 auto;
+}
+.weixin{
+    margin-right: 20px;
+    float: left;
+   text-align: center;
+}
+.weixin > img{
+    width: 100px;
+    height: 100px;
+}
+footer > .weixin > div{
+    background: #FFFFFF;
+    display: block;
+    font-size: 15px;
+    width: 100px;
+    text-align: center;
+}
+.stateTitle{
+    font-size: 16px;
+    color: #00c1de;
+    margin-bottom: 5px;
+}
+.stateContent{
+    color: #73777a;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
