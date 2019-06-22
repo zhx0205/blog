@@ -12,12 +12,13 @@ img{
     height: 100%;
 }
 body{
+    line-height: 1.5;
+    font-size: 15px;
     background: gainsboro ;
     font-family: 微软雅黑 ;
-    font-size:15px ;
-    line-height: 1.5;
 }
 .header {
+    font-size: 15px;
     width: 100%;
     height: 60px;
     background: #1C2327;
@@ -50,49 +51,6 @@ body{
 .headerBox .nav  {
     height: 100%;
     float: left;
-}
-.nav li a:hover{
-    color: #00c1de;
-}
-footer{
-    background: #373D41;
-    font-size: 14px;
-    width: 100%;
-    height: 191px;
-    box-sizing: border-box;
-    padding: 30px 0;
-    border-top:#00C1DE 10px solid;
-}
-footer ul{
-    overflow: hidden;
-    width: 1200px;
-    margin: 0 auto;
-}
-.weixin{
-    margin-right: 20px;
-    float: left;
-    text-align: center;
-}
-.weixin > img{
-    width: 100px;
-    height: 100px;
-}
-footer > .weixin > div{
-    background: #FFFFFF;
-    display: block;
-    font-size: 15px;
-    width: 100px;
-    text-align: center;
-}
-.stateTitle{
-    font-size: 16px;
-    color: #00c1de;
-    margin-bottom: 5px;
-}
-.stateContent{
-    color: #73777a;
-    font-size: 14px;
-    margin-bottom: 5px;
 }
 .list{
     padding: 30px 30px 40px 30px;
@@ -133,18 +91,28 @@ p{
     float: left;
     margin-right:10px ;
 }
+.tx img{
+    opacity: 0.7;
+}
 .choTx{
     margin-bottom:10px ;
 }
-.submit{
+.inputReset{
+    float: right;
+}
+.submit,.reset{
     color: white;
     box-sizing: border-box;
-    padding: 0 20px;
-    float: right;
+    padding:0 20px;
+    margin-top: 10px;
     overflow: hidden;
     height: 30px;
     background: black;
     border-radius: 10px;
+}
+.inputSpan{
+    display: inline-block;
+    margin-top: 10px;
 }
 .message{
     margin-top: 55px;
@@ -155,7 +123,6 @@ p{
     padding: 20px 0;
     width: 100%;
     height: auto;
-    border-bottom: 1px dashed #ececec;
 }
 
 .user{
@@ -163,14 +130,58 @@ p{
     width: 100%;
     height: 64px;
     border-bottom: 1px solid #ececec;
-    margin-bottom: 10px;
 }
 .me{
-     padding: 10px 0;
+    padding: 10px 0;
 }
-.hf{
-    width: 1140px;
-    height: 22px;
-    padding: 10px;
-    background: #f9f9f9;
+.userNameSpan{
+    display: inline-block;
+    float:right;
+}
+.pl img{
+    opacity: 1;
+}
+#lytext{
+    color: #333;
+    resize:none;
+}
+footer{
+    background: #373D41;
+    font-size: 14px;
+    width: 100%;
+    height: 191px;
+    box-sizing: border-box;
+    padding: 30px 0;
+    border-top:#00C1DE 10px solid;
+}
+footer ul{
+    overflow: hidden;
+    width: 1200px;
+    margin: 0 auto;
+}
+.weixin{
+    margin-right: 20px;
+    float: left;
+    text-align: center;
+}
+.weixin > img{
+    width: 100px;
+    height: 100px;
+}
+footer > .weixin > div{
+    background: #FFFFFF;
+    display: block;
+    font-size: 15px;
+    width: 100px;
+    text-align: center;
+}
+.stateTitle{
+    font-size: 16px;
+    color: #00c1de;
+    margin-bottom: 5px;
+}
+.stateContent{
+    color: #73777a;
+    font-size: 14px;
+    margin-bottom: 5px;
 }
